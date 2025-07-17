@@ -4,9 +4,9 @@ import Masonry from 'react-masonry-component';
 import ReactWOW from 'react-wow';
 
 // About img
-import aboutimg2 from '../../assets/img/room-slider/slide.avif';
-import aboutimg1 from '../../assets/img/room-slider/image1.avif';
-import aboutbottomimg from '../../assets/img/feature/03.d2494625.jpg';
+import aboutimg1 from '../../assets/img/feature/04.jpg';
+import aboutimg2 from '../../assets/img/feature/05.jpg';
+import aboutbottomimg from '../../assets/img/bg/03.jpg';
 
 class Habout extends Component {
     render() {
@@ -39,6 +39,10 @@ class Habout extends Component {
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
+                                        <div className="single-feature-box only-bg mt-30" style={{ backgroundImage: "url(" + aboutimg2 + ")" }}>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-6">
                                         <div className="single-feature-box dark mt-30">
                                             <div className="icon">
                                                 <i className="flaticon-necklace" />
@@ -46,14 +50,9 @@ class Habout extends Component {
                                             <h4><Link to="#">Wedding Collection</Link></h4>
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                            </p>
+              </p>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6">
-                                        <div className="single-feature-box only-bg mt-30" style={{ backgroundImage: "url(" + aboutimg2 + ")" }}>
-                                        </div>
-                                    </div>
-                                    
                                 </Masonry>
                             </div>
                         </ReactWOW>
@@ -62,10 +61,10 @@ class Habout extends Component {
                                 <div className="about-text pl-50 pr-50">
                                     <div className="section-title mb-30">
                                         <span className="title-tag">about us</span>
-                                        <h2 className='sub-title'>Crafting Jewellery Since 1990. </h2>
+                                        <h2>Crafting Jewellery Since 1990. </h2>
                                     </div>
-                                    <p className='sub'>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
                                     <Link to="/contact" className="main-btn btn-filled mt-40"> Know More</Link>
                                 </div>

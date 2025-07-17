@@ -80,16 +80,13 @@ class Header extends Component {
                     <div className="header-top">
                         <div className="container-fluid container-custom-three">
                             <div className="d-md-flex align-items-center justify-content-between px-4">
-                                <p className="welcome-text">Free Shipping For All  Products</p>
+                                <p className="welcome-text">Free Shipping On All Domestic Orders</p>
                                 <ul className="header-top-info">
                                     <li>
-                                     Today's Deal
+                                        <i className="fal fa-Clock"> </i> Mon - Sat 9.00 - 18.00
                                     </li>
                                     <li>
-                                      Great Deal  
-                                    </li>
-                                    <li>
-                                        Gift Vouchers
+                                        <i className="fal fa-Clock"> </i> Mon - Sat 9.00 - 18.00
                                     </li>
                                 </ul>
                             </div>
@@ -707,7 +704,7 @@ class Header extends Component {
                     </div >
                     {/* Mobile Header Start */}
                     <div className="sigma-mobile-header" >
-                     
+                        <div className="container">
                             <div className="sigma-mobile-header-inner">
                                 {/* Site Logo */}
                                 <div className="site-logo site-logo-text">
@@ -735,7 +732,7 @@ class Header extends Component {
                                     />
                                 </div>
                             </div >
-                      
+                        </div >
                     </div >
                     {/* Mobile Header End */}
                     {/* Mobile Menu Start */}
